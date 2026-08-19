@@ -11,9 +11,7 @@ let BACKEND_URL;
 if (isLocalhost) {
   BACKEND_URL = "http://localhost:10000";
 } else {
-  BACKEND_URL =
-    import.meta.env.VITE_BACKEND_URL ||
-    "https://anivault-backend-b6z3.onrender.com";
+  BACKEND_URL = "https://anivault-backend-5yv2.onrender.com";
 }
 
 const cache = new Map();
